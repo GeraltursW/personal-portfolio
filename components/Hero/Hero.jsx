@@ -26,7 +26,7 @@ const Hero = () => {
                 <div className={css.person}>
                     <motion.img
                         variants={fadeIn('up', 'tween', 0.5, 1.3)}
-                        src="./person.png" alt="" />
+                        src="./me1.jpg" alt="" />
                 </div>
                 {/* 邮箱 */}
                 <a className={css.email} href="mailto:18669633238@163.com">18669633238@163.com</a>
