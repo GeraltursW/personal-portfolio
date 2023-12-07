@@ -25,10 +25,10 @@ const Header = () => {
                 <ul
                 style={getMenuStyles(menuOpened)}
                 className={`flexCenter ${css.menu}`}>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Experience</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">简介</a></li>
+                    <li><a href="">经历</a></li>
+                    <li><a href="">项目</a></li>
+                    <li><a href="">评价</a></li>
                     <li className={`flexCenter ${css.email}`}>
                         <p>18669633238@163.com</p>
                         <MdOutlineMail size={"40px"} />

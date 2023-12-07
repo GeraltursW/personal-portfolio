@@ -2,13 +2,14 @@
 
 .wrapper{
     position:relative;
-    z-index: 99;
+    z-index: 999;
     opacity: 1;
     transform: none;
     position:sticky;
     top: 0;
     // left: 0;
     transition: all 300ms ease;
+    background-color: #F8F7F1;
     .container{
         position:relative;
         justify-content: space-between;
